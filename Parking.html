@@ -11,13 +11,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script>
     <link rel="stylesheet" href="index.css">
-    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <style>
-      /* Set the size of the div element that contains the map */
+      
      #mapa {
-       height: 400px;  /* The height is 400 pixels */
-       width: 100%;  /* The width is the width of the web page */
-      }
+       height: 400px; 
+       width: 100%;
+       border-left:1px solid #efefef;
+       
+         }
    </style>
 
 </head>
@@ -29,11 +31,9 @@
   <h3>Kampus Sveučilišta u Mostaru</h3>
   
     <div id="mapa"></div>
-    <script src="mapa.js"></script>
-     
-      <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js">
-      </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlMtsdp6JQpzu6_2V1w_0NvIDykqnQrh0&amp;libraries=drawing&amp;callback=initMap"></script>    
+    <script src="mapa2.js"></script>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlMtsdp6JQpzu6_2V1w_0NvIDykqnQrh0&amp;libraries=drawing&amp;callback=initMap"></script>    
     <div class="title">
       <div class="title"><ul><li><a href="index.html">Nazad</a></li></ul></div>
       <ul>

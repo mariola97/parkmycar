@@ -117,3 +117,4 @@ li a:hover {
 .badge-success:hover{color:green;background-color:white}
 .badge-danger{color:#fff;background-color:red}
 .badge-danger:hover{color:red;background-color:white}
+#mapDetails{width:100%;height:480px}
