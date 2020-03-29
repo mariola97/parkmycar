@@ -1,3 +1,4 @@
+
 function initMap() {
       
     var map = new google.maps.Map(document.getElementById('mapa'), {
@@ -5,9 +6,10 @@ function initMap() {
       center: {lat: 43.346279, lng: 17.797821}
     });
     
+        
   
-    var labels = 'abcdefghijklmnopqestuwxyz';
-    
+    var labels = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62"];
+  
     var markers = locations.map(function(location, i) {
       return new google.maps.Marker({
         position: location,
@@ -20,6 +22,7 @@ function initMap() {
         {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
     }
     var locations = [
+    {lat: 43.34658412876357, lng: 17.79782064601684},
     {lat: 43.34655412876357, lng: 17.79781564601684},
     {lat: 43.34652412876357, lng: 17.79781064601684},
     {lat: 43.34649412876357, lng: 17.79780564601684},
@@ -80,6 +83,7 @@ function initMap() {
     {lat: 43.34531225258598, lng: 17.79746845802973},
     {lat: 43.34528225258598, lng: 17.79746345802973},
     {lat: 43.34525225258598, lng: 17.79745845802973},
-    {lat: 43.34522225258598, lng: 17.79745345802973},
-    {lat: 43.34658412876357, lng: 17.79782064601684}
+    {lat: 43.34522225258598, lng: 17.79745345802973}
+    
     ]
+    
